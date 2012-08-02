@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+} 
+
+body {
+    background: #fff;
+	font: .74em "Trebuchet MS" Verdana, Arial, sans-serif;
+<!--	font: .74em "Trebuchet MS" Verdana, Arial, sans-serif;-->
+	line-height: 1.5em; 
+}
+a {
+	color: #3B6EBF;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+#wrap {
+margin: 20px auto;
+width: 724px;
+background: #fff url('images/midbg.jpg');
+background-repeat: repeat-y;
+}
+
+#top { 
+background: #fff url('images/topbg.jpg');
+height: 30px;
+}
+
+#content {
+padding: 0 40px 0 40px;
+}
+
+#bottom {
+background: #fff url('images/botbg.jpg');
+height: 30px;
+}
+
+
+.header {
+height: 100px;
+background: #85ACF7 url('images/hidr.jpg');
+}
+
+.header h1 { padding-left: 100px; padding-top: 17px; font-size: 46px; color: #FFF;}
+.header h1 a { font-size: 36px; color: #FFF; text-decoration: none;}
+
+.header h2 { padding-left: 100px; font-size: 17px; color: #3B6EBF; }
+.middle h2 { color: #3B6EBF; font-size: 22px; margin-bottom: 10px; margin-top: 10px;}
+.bio h2 { color: #3B6EBF; font-size: 22px; margin-bottom: 10px; margin-top: 10px;}
+h2 { color: #3B6EBF; font-size: 22px; margin-bottom: 10px; margin-top: 10px;}
+.right h2 { color: #3B6EBF; font-size: 22px; margin-top: 15px;}
+
+
+.breadcrumbs { 
+    background: #F6F9FB; 
+	border-bottom: 1px solid #E1E1E1; 
+	padding: 5px;
+}
+
+
+.bottom_line { 
+	border-bottom: 1px solid #E1E1E1;
+}
+
+.owl_image{
+width: .96 pixels;
+}
+
+.member{
+	margin-left: 96px;
+}
+
+.middle {
+	float: left;
+	width: 55%;
+	margin: 0 10px;
+	padding: 1% 1%;
+	text-align: justify;
+}
+
+
+.bios {
+	float: left;
+	width: 85%;
+	margin: 0 10px;
+	padding: 1% 1%;
+	text-align: justify;
+}
+
+
+.right {
+	float: left;
+	width: 30%;
+	margin: 0 10px;
+	padding: 1% 1%;
+}
+
+.right ul {
+	padding: 0 0 15px 20px;
+	margin:0;
+}
+
+.right li {
+	margin-bottom:5px;
+	list-style-type: square;
+	color: #3B6EBF;
+}
+
+
+#clear {
+	display: block;
+	clear: both;
+	width: 100%;
+	height:1px;
+	overflow:hidden;
+}
+
+#footer {
+	text-align: center;
+	color: #666;
+}
+
+
